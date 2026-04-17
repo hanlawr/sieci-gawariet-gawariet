@@ -3,6 +3,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class ClientChat {
+    //sprawdzam pierwszy commit
    public static void main(String[] args) throws Exception{
        Socket socket = new Socket("localhost", 12347);
        BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
